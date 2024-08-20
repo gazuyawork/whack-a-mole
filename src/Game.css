@@ -25,7 +25,7 @@ body {
   .hole {
     width: 125%; /* 親要素の幅を全体に広げる */
     padding-top: 100%; /* 正方形を維持するために、アスペクト比を保つ */
-    background-image: url('../public/soil.png');
+    background-image: url('./images/soil.png');
     background-size: contain; /* 画像が幅に合わせて表示され、アスペクト比を保つ */
     background-position: center 90%; /* 画像を中央寄せして、少し上に配置 */
     background-repeat: no-repeat;
@@ -230,70 +230,69 @@ body {
 
   
 
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* 半透明のグレー背景 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2000; /* 他の要素より前面に表示 */
-  }
-  
-  .game-over-container {
-    text-align: center;
-  }
-  
-  .countdown {
-    font-size: 100px;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-  }
-  
-  .start-button,
-  .restart-button,
-  .top-button {
-    padding: 15px 30px;
-    font-size: 24px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .start-button:hover,
-  .restart-button:hover,
-  .top-button:hover {
-    background-color: #45a049;
-  }
-  
-  .restart-button,
-  .top-button {
-    margin-top: 10px; /* 余白を統一 */
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* ボタン間のスペースを設定 */
-    margin-top: 20px; /* ボタンの上に余白を追加 */
-  }
-  
-  .game-over {
-    font-size: 50px;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-  }
-  
-  .final-score {
-    font-size: 30px;
-    color: white;
-  }
-  
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明のグレー背景 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000; /* 他の要素より前面に表示 */
+}
+
+.game-over-container {
+  text-align: center;
+}
+
+.countdown {
+  font-size: 100px;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.start-button,
+.restart-button,
+.top-button {
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.start-button:hover,
+.restart-button:hover,
+.top-button:hover {
+  background-color: #45a049;
+}
+
+.restart-button,
+.top-button {
+  margin-top: 10px; /* 余白を統一 */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* ボタン間のスペースを設定 */
+  margin-top: 20px; /* ボタンの上に余白を追加 */
+}
+
+.game-over {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.final-score {
+  font-size: 30px;
+  color: white;
+}

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/whack-a-mole/static/css/main.4dc4bea9.css",
-    "main.js": "/whack-a-mole/static/js/main.972b1367.js",
-    "static/js/453.b84c7aff.chunk.js": "/whack-a-mole/static/js/453.b84c7aff.chunk.js",
-    "index.html": "/whack-a-mole/index.html",
-    "main.4dc4bea9.css.map": "/whack-a-mole/static/css/main.4dc4bea9.css.map",
-    "main.972b1367.js.map": "/whack-a-mole/static/js/main.972b1367.js.map",
-    "453.b84c7aff.chunk.js.map": "/whack-a-mole/static/js/453.b84c7aff.chunk.js.map"
+    "main.css": "/static/css/main.4dc4bea9.css",
+    "main.js": "/static/js/main.ffa6d70a.js",
+    "static/js/453.b84c7aff.chunk.js": "/static/js/453.b84c7aff.chunk.js",
+    "index.html": "/index.html",
+    "main.4dc4bea9.css.map": "/static/css/main.4dc4bea9.css.map",
+    "main.ffa6d70a.js.map": "/static/js/main.ffa6d70a.js.map",
+    "453.b84c7aff.chunk.js.map": "/static/js/453.b84c7aff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dc4bea9.css",
-    "static/js/main.972b1367.js"
+    "static/js/main.ffa6d70a.js"
   ]
 }
